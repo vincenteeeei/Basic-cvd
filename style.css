@@ -217,54 +217,90 @@ transition: .5s ease;
 }
 
 /* BANNER */
-.banner{
+.banner5{
 padding-top :13rem;
 padding-bottom: 5rem;
 background: #ffffff;
 }
-.banner .banner__wrapper{
+.banner5 .banner5__wrapper{
  display: grid;
  grid-template-columns:1fr 1fr;
  align-items: center;
  gap: 5rem;
 }
-.banner .banner__text h1 {
+.banner5 .banner5__text h1 {
   font-size: 10rem;
   font-weight: 800;
   color: #ffa700;
   line-height: 1;
 }
-.banner .banner__text p{
+.banner5 .banner5__text p{
   margin-top: 5rem;
   margin-bottom: 3rem;
   text-align: justify;
 }
+.banner5 .banner5__wrapper ul {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.banner5 .banner5__wrapper ul li i {
+  color: #ffa700;
+  font-size: 2.5rem;
+  align-items: center;
+}
+.banner5 .arrow{
+  color: #ffa700;
+  font-size: 3.5rem;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+  .banner5 .arrow__wrapper ul {
+    gap: 1.25rem;
+  align-items: center;
+
+  }
 @media screen and (max-width: 500px){
-  .banner{
+  .banner5{
     padding-left: 2rem;
     padding-right: 2rem;
   }
-  .banner .banner__wrapper{
+  .banner5 .banner5__wrapper{
     display:grid;
     grid-template-columns: 1fr;
   }
-  .banner .banner__text{
+  .banner5 .banner5__text{
     order: 2;
   }
-  .banner .banner__text h1{
+  .banner5 .banner5__text h1{
     font-size: 3rem;
     text-align: center;
   }
-  .banner .banner__text a{
+  .banner5 .banner5__text a{
     display: flex;
     width: fit-content;
     margin: o auto;
   }
-.banner img{
+.banner5 img{
   width: 20rem;
   margin: 0 auto;
 }
+.banner5 .banner5__wrapper ul li a {
+  color: #ffa700;
+  font-size: 2.5rem;
+}
+.banner5 .banner5__wrapper ul {
+  display: flex;
+  gap: 1.25rem;
+}
 
+.banner5 .banner5__wrapper ul li i {
+  color: #ffa700;
+  font-size: 2.5rem;
+  align-items: center;
+}
 }
 
 /* SRVC */
@@ -426,7 +462,9 @@ font-weight: 700;
   display: flex;
   align-items: center;
 }
-
+.footer .footer__wrapper{
+  color: #ffa700;
+}
 /* FOOTER MV */
 @media screen and (max-width:500px){
   .footer .footer__wrapper{
