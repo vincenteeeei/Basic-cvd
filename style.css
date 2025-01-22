@@ -530,7 +530,9 @@ font-weight: 700;
   cursor: pointer;
   font-size: 4rem;
 }
-
+.wwd .services:last-child .nyarow{
+  display: none;
+}
 /* WWD MV */
 @media screen and (max-width: 500px) {
   .wwd {
@@ -559,7 +561,361 @@ font-weight: 700;
   }
 }
 
+  /* BANNER */
+.banner5{
+  padding-top :13rem;
+  padding-bottom: 5rem;
+  background: #ffffff;
+  }
+  .banner5 .banner5__wrapper{
+   display: grid;
+   grid-template-columns:1fr 1fr;
+   align-items: center;
+   gap: 5rem;
+  }
+  .banner5 .banner5__text h1 {
+    font-size: 10rem;
+    font-weight: 800;
+    color: #ffa700;
+    line-height: 1;
+  }
+  .banner5 .banner5__text p{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    text-align: justify;
+  }
+  .banner5 .banner5__wrapper ul {
+    display: flex;
+    gap: 1.25rem;
+  }
   
+  .banner5 .banner5__wrapper ul li i {
+    color: #ffa700;
+    font-size: 2.5rem;
+    align-items: center;
+  }
+  .banner5 .arrow{
+    color: #ffa700;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+    .banner5 .arrow__wrapper ul {
+      gap: 1.25rem;
+    align-items: center;
+  
+    }
+  @media screen and (max-width: 500px){
+    .banner5{
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+    .banner5 .banner5__wrapper{
+      display:grid;
+      grid-template-columns: 1fr;
+    }
+    .banner5 .banner5__text{
+      order: 2;
+    }
+    .banner5 .banner5__text h1{
+      font-size: 3rem;
+      text-align: center;
+    }
+    .banner5 .banner5__text a{
+      display: flex;
+      width: fit-content;
+      margin: o auto;
+    }
+  .banner5 img{
+    width: 20rem;
+    margin: 0 auto;
+  }
+  .banner5 .banner5__wrapper ul li a {
+    color: #ffa700;
+    font-size: 2.5rem;
+  }
+  .banner5 .banner5__wrapper ul {
+    display: flex;
+    gap: 1.25rem;
+  }
+  
+  .banner5 .banner5__wrapper ul li i {
+    color: #ffa700;
+    font-size: 2.5rem;
+    align-items: center;
+  }
+  }
+
+  .update .container {
+  
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+  }
+  
+  
+  .trend__wrapper {
+    flex: 3;  
+  }
+  
+  
+  .sidepannel {
+    flex: 1;  
+  }
+  
+  
+  .trend__post {
+    margin-bottom: 30px;
+  }
+  
+  
+  
+  .sidepannel .category {
+    margin-bottom: 20px;
+  }
+  
+  
+  .sidepannel .category ul {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;  
+  }
+  
+  .sidepannel .category ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .sidepannel .tags ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .sidepannel .tags ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  /* Recent Posts */
+  .RecentPost__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .RecentPost__item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    margin-right: 15px;
+  }
+  
+  .RecentPost__item__text h5 {
+    font-size: 16px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .RecentPost__item__text p {
+    font-size: 14px;
+    color: #666;
+  }
+  /* ### test ###  */
+  .update .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px; 
+    padding-top: 18rem;
+  }
+  
+  
+  .trend__wrapper {
+    flex: 3;  
+  }
+  
+  .intro{
+  color: #ffa700;
+  font-size: 5rem;
+  font-weight: 600;
+  }
+  
+  .parabola{
+  padding-bottom: 2rem;
+  }
+  
+  .trend__post ul {
+    display: flex;            
+    gap: 15px;                
+    list-style: none;         
+    padding: 0;               
+    margin: 0;                
+  }
+  
+  .trend__post ul li {
+    display: flex;            
+    align-items: center;     
+    padding-bottom: 1rem; 
+  }
+  
+  .trend__post ul li a {
+    text-decoration: none;    
+    color: #333;             
+  }
+  
+  .trend__post h2{
+  color: #ffa700;
+  font-weight: 600;
+  font-size: 2rem;
+  padding-bottom: 4rem;
+  }
+  .trend__post p{
+  max-width: 719px;
+  }
+  
+  
+  .separator {
+    border: 0;
+    border-top: 3px solid #ccc; 
+    margin: 20px 0; 
+    max-width: 719px;
+    
+  }
+  
+  
+  
+  
+  
+  .sidepannel {
+    flex: 1;  
+    padding-top: 15rem;
+  }
+  
+  .recent__items {
+    display: flex;               
+    gap: 15px;                   
+    margin-bottom: 20px;         
+  }
+  
+  .recent__items img {
+    width: 100px;                
+    height: 100px;              
+    object-fit: cover;         
+  }
+  
+  .recent_text {
+    display: flex;               
+    flex-direction: column;      
+    justify-content: flex-start; 
+  }
+  
+  .recent_text a {
+    font-weight: bold;           
+    color: #333;                 
+    text-decoration: none;       
+    margin-bottom: 5px;         
+  }
+  
+  .recent_text p {
+    color: #666;                 
+    font-size: 0.9rem;           
+  }
+  
+  
+  .trend__post {
+    margin-bottom: 30px;
+  }
+  
+  .trend__post a{
+  color: #ffa700;
+  }
+  
+  .trend__post p{
+  padding-bottom: 3rem;
+  }
+  
+  
+  
+  .sidepannel .category {
+    margin-bottom: 20px;
+  }
+  
+  .trend__post img{
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  
+  }
+  
+  .sidepannel .category ul {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;  
+  }
+  
+  .sidepannel .category ul li a{
+   margin: 1rem;
+   color: #2b2b2b;
+   display: flex;
+   
+  
+  }
+  
+  
+  .sidepannel .category_title h2{
+  color: #ffa700;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  }
+  
+  
+  .sidepannel .tags ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .sidepannel .tags ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  .tags a {
+    display: inline-block;
+    padding: 8px 16px; 
+    border: 1px solid gray; 
+    color: gray; 
+    text-decoration: none; 
+    margin: 5px; 
+    border-radius: 4rem; 
+    transition: all 0.3s ease; 
+  }
+  
+  
+  .tags a:hover {
+    background-color: gray; 
+    color: white; 
+  }
+  
+  .tags a{
+  display: flex;
+  flex-direction: row;
+  }
+  .Recentpost h3{
+    font-size: 2rem;
+    color: #ffa700;
+    padding-bottom: 4rem;
+  }
+  .sidepannel .category_title table{
+    width: 100%;
+    
+  }
+  .sidepannel .category_title table tr{
+    height: 5rem;
+  }
 /* REPEATABLE PATTERNS */
 .btn{
   display:inline-block;
